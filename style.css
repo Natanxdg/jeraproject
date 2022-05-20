@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+	box-sizing: none;
+	background-image: linear-gradient(to bottom right, #A9EFDE, #51C8D2);
+}
+
+.h:hover {
+	background-color: #502B0E;
+}
+
+.h {
+	border: 5px black solid;
+	border-radius: 50px;
+	display: flex;
+	flex-direction: row-reverse;
+	background-color: #D8DB21;
+	padding: 4px;
+}
+
+.hp:hover {
+	color:white;
+}
+
+.hp {
+	border: none;
+	background-color: transparent;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: black;
+	padding: 6px;
+}
+
+.m1 {
+	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.m1img {
+	height: 400px;
+	border: 5px black solid;
+	border-radius: 360px;
+}
+
+.m1h {
+	margin-top: 70px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 62px;
+}
+
+.m1p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+}
+
+.m1b:hover {
+	background-color: #502B0E;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+.m1b {
+	margin-top: 30px;
+	border-radius: 60px;
+	border: 5px black solid;
+	background-color: #D8DB21;
+	height: 50px;
+	width: 200px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 28px;
+	color: black;
+}
