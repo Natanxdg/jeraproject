@@ -5,6 +5,10 @@ body {
 	background-image: linear-gradient(to bottom right, #A9EFDE, #51C8D2);
 }
 
+.h:hover {
+	background-color: #502B0E;
+}
+
 .h {
 	display: flex;
 	flex-direction: row-reverse;
@@ -20,6 +24,10 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	color: black;
+}
+
+.hb:hover {
+	color: white;
 }
 
 .m1 {
