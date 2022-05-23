@@ -1,15 +1,15 @@
-function emBreve() {
-document.getElementById('fm').innerHTML = 'Em breve';
+function aboutPage() {
+	window.location = 'about.html';
 }
 
-function aDisponivel() {
-document.getElementById('sm').innerHTML = 'Disponível';
+function socialMedia() {
+	window.location = 'socialmedias.html';
 }
 
-function cGratuitamente() {
-document.getElementById('a').innerHTML = 'Gratuitamente';
+function bHome() {
+	window.location = 'index.html';
 }
 
-function dWait() {
-document.getElementById('n').innerHTML = 'Aguarde !';
+function goInstagram() {
+	window.location = 'https://www.instagram.com/projetojera?utm_medium=copy_link';
 }
